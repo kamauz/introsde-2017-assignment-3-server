@@ -30,9 +30,10 @@ The file build.xml contains the functions to perform with Ant.
 	
 ### Execution
 
-Go to the project folder and run ```ant create.war```
+Go to the project folder and run ```ant create.war``` (terminal)
 
-Server is hosted here: ```http://sde3usa.herokuapp.com/people?wsdl```  
+Server is hosted here: ```http://sde3usa.herokuapp.com/people?wsdl``` but it is possible to use the WAR file just created to deploy this service on your own server.
+For a heroku server you can just run this command ```heroku war:deploy <warname.war> --app <name of the app>```
 
 ### Additional Notes
 A huge problem has been found and resolved when trying to comunicate between client and server. Strange errors about ```multiple library definition``` and ```database access permissions```
