@@ -1,7 +1,8 @@
 # introsde 2017 assignment 3 server
 Marco Michelotti (marco.michelotti-1@studenti.unitn.it)
 
-**WSDL heroku: http://sde3usa.herokuapp.com/people?wsdl**  
+**WSDL heroku: http://sde3-4.herokuapp.com/people?wsdl**  
+WARNING: I have commited an update to the project later because of an Heroku problem ("Free app time exausted"). So I have just changed the server where the WAR file is hosted
 
 ## Project
 
